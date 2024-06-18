@@ -88,7 +88,7 @@ Catalogue.create_table()
 
 motorcycle_data = [
     {
-        "img": "https://example.com/motorcycle1.jpg",
+        "img": "https://bd.gaadicdn.com/processedimages/yamaha/yamaha-yzf-r1/640X309/v_yzf-r1-sports1528355391.jpg",
         "brand": "Yamaha",
         "model": "YZF-R1",
         "category": "Sport",
@@ -97,7 +97,7 @@ motorcycle_data = [
         "releaseDate": "Release Date: 2022-06-15"
     },
     {
-        "img": "https://example.com/motorcycle2.jpg",
+        "img": "https://www.honda.co.uk/content/dam/central/motorcycles/supersports/cbr600rr-2024/overview/hero-tile/honda-cbr600rr-hero-tile-01-972x1728-mobile.jpg/_jcr_content/renditions/m_w.webp",
         "brand": "Honda",
         "model": "CBR600RR",
         "category": "Sport",
@@ -106,7 +106,7 @@ motorcycle_data = [
         "releaseDate": "Release Date: 2021-05-10"
     },
     {
-        "img": "https://example.com/motorcycle3.jpg",
+        "img": "https://bd.gaadicdn.com/processedimages/ducati/panigale-v4/494X300/panigale-v4630dac4c64957.jpg",
         "brand": "Ducati",
         "model": "Panigale V4",
         "category": "Sport",
@@ -115,7 +115,7 @@ motorcycle_data = [
         "releaseDate": "Release Date: 2023-03-20"
     },
     {
-        "img": "https://example.com/motorcycle4.jpg",
+        "img": "https://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/BF/6F/BF6FD722-B8D3-4465-B2B1-8202D9C0FD70.jpg",
         "brand": "Harley-Davidson",
         "model": "Street Glide",
         "category": "Cruiser",
@@ -124,7 +124,7 @@ motorcycle_data = [
         "releaseDate": "Release Date: 2020-09-25"
     },
     {
-        "img": "https://example.com/motorcycle5.jpg",
+        "img": "https://pbs.twimg.com/media/FsBMEt0WAAg3H1p.jpg",
         "brand": "Kawasaki",
         "model": "Ninja H2",
         "category": "Sport",
