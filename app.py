@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from models.catalogue import Catalogue
+from models.motorcycle_offer import MotorcycleOffer
 
 app = FastAPI()
 
@@ -17,3 +18,8 @@ app.add_middleware(
 async def get_catalogues():
     cards = Catalogue.get_all()
     return {"catalogues": [card.to_dict() for card in cards]}
+
+@app.get("/motorcycle_offers")
+async def get_motorcycle_offers():
+    motorcycle_offers = MotorcycleOffer.get_all()
+    return {"motorcycle_offers": [motorcycle_offer.to_dict() for motorcycle_offer in motorcycle_offers]}
