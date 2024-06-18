@@ -80,8 +80,9 @@ class Catalogue:
     def get_by_id(cls, motorcycle_id):
         sql = f"SELECT * FROM {cls.TABLE_NAME} WHERE id = ?"
         cursor.execute(sql, (motorcycle_id,))
-        row = cursor.fetchone()
         
+        row = cursor.fetchone()
+
         return cls.row_to_instance(row)
 
 # Call create_table to ensure the table exists
