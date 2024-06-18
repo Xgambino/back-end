@@ -81,6 +81,7 @@ class Catalogue:
         sql = f"SELECT * FROM {cls.TABLE_NAME} WHERE id = ?"
         cursor.execute(sql, (motorcycle_id,))
         row = cursor.fetchone()
+        
         return cls.row_to_instance(row)
 
 # Call create_table to ensure the table exists
