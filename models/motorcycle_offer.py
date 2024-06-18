@@ -76,6 +76,7 @@ class MotorcycleOffer:
         return motorcycle_offers
 
     def to_dict(self):
+        
         return {
             "id": self.id,
             "image_url": self.image_url,
